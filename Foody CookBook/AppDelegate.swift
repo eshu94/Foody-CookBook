@@ -14,7 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = Theme.tint
+        appearance.largeTitleTextAttributes = [
+            NSAttributedString.Key.font: UIFont(name: Theme.labelFontNameBold, size: 25) as Any,
+            NSAttributedString.Key.foregroundColor : Theme.label as Any
+        ]
+        appearance.titleTextAttributes = [
+            NSAttributedString.Key.font: UIFont(name: Theme.labelFontNameBold, size: 18) as Any,
+            NSAttributedString.Key.foregroundColor : Theme.label as Any
+        ]
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        UINavigationBar.appearance().compactAppearance = appearance
+        UINavigationBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().unselectedItemTintColor = Theme.backGround
         return true
     }
 

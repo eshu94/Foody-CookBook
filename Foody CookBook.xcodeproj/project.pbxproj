@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F6C29CA265E7D22008DBF28 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29C9265E7D21008DBF28 /* Theme.swift */; };
+		6F6C29CD265E7D31008DBF28 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C29CC265E7D31008DBF28 /* Colors.xcassets */; };
+		6F6C29D0265E7D64008DBF28 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29CF265E7D64008DBF28 /* UIViewExtensions.swift */; };
+		6F6C29D3265E7D79008DBF28 /* ReceipeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29D2265E7D79008DBF28 /* ReceipeCustomCell.swift */; };
+		6F6C29D6265E7DAB008DBF28 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29D5265E7DAB008DBF28 /* MealModel.swift */; };
+		6F6C29D9265E7DC9008DBF28 /* TheMealDBWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29D8265E7DC9008DBF28 /* TheMealDBWebService.swift */; };
+		6F6C29DC265E7DFF008DBF28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29DB265E7DFF008DBF28 /* HomeViewController.swift */; };
+		6F6C29DF265E7E19008DBF28 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29DE265E7E19008DBF28 /* LoadingViewController.swift */; };
+		6F6C29E2265E7E41008DBF28 /* SearchReceipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29E1265E7E41008DBF28 /* SearchReceipeViewController.swift */; };
+		6F6C29E5265E7E5B008DBF28 /* FavouriteReceipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29E4265E7E5B008DBF28 /* FavouriteReceipesViewController.swift */; };
+		6F6C29E8265E7E77008DBF28 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C29E7265E7E77008DBF28 /* MealDetailsViewController.swift */; };
 		6FD9B62B265E694600966BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9B62A265E694600966BB4 /* AppDelegate.swift */; };
 		6FD9B62D265E694600966BB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9B62C265E694600966BB4 /* SceneDelegate.swift */; };
 		6FD9B62F265E694600966BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9B62E265E694600966BB4 /* ViewController.swift */; };
@@ -17,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F6C29C9265E7D21008DBF28 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6F6C29CC265E7D31008DBF28 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		6F6C29CF265E7D64008DBF28 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		6F6C29D2265E7D79008DBF28 /* ReceipeCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeCustomCell.swift; sourceTree = "<group>"; };
+		6F6C29D5265E7DAB008DBF28 /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		6F6C29D8265E7DC9008DBF28 /* TheMealDBWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealDBWebService.swift; sourceTree = "<group>"; };
+		6F6C29DB265E7DFF008DBF28 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F6C29DE265E7E19008DBF28 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		6F6C29E1265E7E41008DBF28 /* SearchReceipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchReceipeViewController.swift; sourceTree = "<group>"; };
+		6F6C29E4265E7E5B008DBF28 /* FavouriteReceipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteReceipesViewController.swift; sourceTree = "<group>"; };
+		6F6C29E7265E7E77008DBF28 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
 		6FD9B627265E694500966BB4 /* Foody CookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foody CookBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD9B62A265E694600966BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD9B62C265E694600966BB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,16 +80,67 @@
 		6FD9B629265E694500966BB4 /* Foody CookBook */ = {
 			isa = PBXGroup;
 			children = (
+				6FD9B648265E7B4700966BB4 /* Custom cells and extensions */,
+				6FD9B647265E7B1600966BB4 /* Resources */,
+				6FD9B646265E7B0D00966BB4 /* Model */,
+				6FD9B645265E7B0000966BB4 /* Controllers */,
+				6FD9B642265E695B00966BB4 /* Views */,
 				6FD9B62A265E694600966BB4 /* AppDelegate.swift */,
 				6FD9B62C265E694600966BB4 /* SceneDelegate.swift */,
 				6FD9B62E265E694600966BB4 /* ViewController.swift */,
-				6FD9B630265E694600966BB4 /* Main.storyboard */,
-				6FD9B636265E694800966BB4 /* Assets.xcassets */,
-				6FD9B638265E694800966BB4 /* LaunchScreen.storyboard */,
 				6FD9B63B265E694800966BB4 /* Info.plist */,
 				6FD9B633265E694600966BB4 /* Foody_CookBook.xcdatamodeld */,
 			);
 			path = "Foody CookBook";
+			sourceTree = "<group>";
+		};
+		6FD9B642265E695B00966BB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FD9B630265E694600966BB4 /* Main.storyboard */,
+				6FD9B638265E694800966BB4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FD9B645265E7B0000966BB4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C29DB265E7DFF008DBF28 /* HomeViewController.swift */,
+				6F6C29DE265E7E19008DBF28 /* LoadingViewController.swift */,
+				6F6C29E1265E7E41008DBF28 /* SearchReceipeViewController.swift */,
+				6F6C29E4265E7E5B008DBF28 /* FavouriteReceipesViewController.swift */,
+				6F6C29E7265E7E77008DBF28 /* MealDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6FD9B646265E7B0D00966BB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C29D5265E7DAB008DBF28 /* MealModel.swift */,
+				6F6C29D8265E7DC9008DBF28 /* TheMealDBWebService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FD9B647265E7B1600966BB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FD9B636265E694800966BB4 /* Assets.xcassets */,
+				6F6C29C9265E7D21008DBF28 /* Theme.swift */,
+				6F6C29CC265E7D31008DBF28 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6FD9B648265E7B4700966BB4 /* Custom cells and extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C29CF265E7D64008DBF28 /* UIViewExtensions.swift */,
+				6F6C29D2265E7D79008DBF28 /* ReceipeCustomCell.swift */,
+			);
+			path = "Custom cells and extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD9B63A265E694800966BB4 /* LaunchScreen.storyboard in Resources */,
+				6F6C29CD265E7D31008DBF28 /* Colors.xcassets in Resources */,
 				6FD9B637265E694800966BB4 /* Assets.xcassets in Resources */,
 				6FD9B632265E694600966BB4 /* Main.storyboard in Resources */,
 			);
@@ -141,8 +215,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD9B62F265E694600966BB4 /* ViewController.swift in Sources */,
+				6F6C29D3265E7D79008DBF28 /* ReceipeCustomCell.swift in Sources */,
+				6F6C29D6265E7DAB008DBF28 /* MealModel.swift in Sources */,
+				6F6C29D9265E7DC9008DBF28 /* TheMealDBWebService.swift in Sources */,
 				6FD9B62B265E694600966BB4 /* AppDelegate.swift in Sources */,
+				6F6C29DC265E7DFF008DBF28 /* HomeViewController.swift in Sources */,
+				6F6C29CA265E7D22008DBF28 /* Theme.swift in Sources */,
 				6FD9B635265E694600966BB4 /* Foody_CookBook.xcdatamodeld in Sources */,
+				6F6C29E8265E7E77008DBF28 /* MealDetailsViewController.swift in Sources */,
+				6F6C29DF265E7E19008DBF28 /* LoadingViewController.swift in Sources */,
+				6F6C29D0265E7D64008DBF28 /* UIViewExtensions.swift in Sources */,
+				6F6C29E5265E7E5B008DBF28 /* FavouriteReceipesViewController.swift in Sources */,
+				6F6C29E2265E7E41008DBF28 /* SearchReceipeViewController.swift in Sources */,
 				6FD9B62D265E694600966BB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
